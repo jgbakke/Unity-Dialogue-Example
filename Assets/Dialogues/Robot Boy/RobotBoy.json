@@ -1,0 +1,27 @@
+﻿{
+
+	"1" : {
+		"text": "Hello, I don\'t think we\'ve met before",
+		"responseIds": ["P1", "P2"]
+	},
+
+	"2" : {
+		"text": "Can you push that box over to me?",
+		"responseIds": [],
+		"applyCondition": ["Box Quest", false]
+	}
+
+	"3" : {
+		"text": "Please hurry.",
+		"condition" : "Box Quest",
+		"responseIds": [],
+		"alternateLine" : "1"
+	}
+
+	"4" : {
+		"text": "Thank you for your help.",
+		"condition" : "Box Given",
+		"responseIds": [],
+		"alternateLine" : "3"
+	}
+}

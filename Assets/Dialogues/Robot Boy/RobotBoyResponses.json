@@ -1,0 +1,15 @@
+﻿{
+
+	"P1" : {
+		"option": "Hello there",
+		"text" : "Hello there",
+		"responseIds": ["2"]
+	},
+
+	"P2" : {
+		"option": "What do you want?",
+		"text" : "What do you want?",
+		"responseIds": ["2"]
+	}
+
+}
