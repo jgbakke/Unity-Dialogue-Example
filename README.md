@@ -24,11 +24,11 @@ JSON Files:
 Please see RobotBoy.json for an example file for an NPC. In this example, the player talks to a Robot. Here is the file structure
 
 	id: {
-	    "text": "What you want to say",
-			"condition" : "Met Before",
-			"responseIds": [id1, id2],
-			"alternateLine" : otherId,
-	    "applyCondition" : ["Completed a quest", true]
+	        "text": "What you want to say",
+		"condition" : "Met Before",
+		"responseIds": [id1, id2],
+		"alternateLine" : otherId,
+	        "applyCondition" : ["Completed a quest", true]
 	}
 
 id should be a string and is how it is identified
@@ -44,4 +44,6 @@ applyCondition: This adds the specified condition as a value in the CSV file. Tr
 
 There are 2 CSV files which you need to attach in scene builder: A global and local one. If an option will only effect one character specifically, store it in local CSV. This is to avoid namespace pollution. For example, a condition "Has Met" would go in local. Global is for worlwide events. For example, if Player completed a big quest that everybody will want to talk about, you would add "Completed something" to the global CSV.
 
-See RobotBoyResponses.json for an example of a player response file. Option is the field that will be passed to the GUI and text will be the subtitle displayed after choosing option. 
+See RobotBoyResponses.json for an example of a player response file. Option is the field that will be passed to the GUI and text will be the subtitle displayed after choosing option.
+
+In the Editor under the Dialogue Manager Script you will see Dialogue IDs and Dialogue Recordings properties. These are a map for each ID and the corresponding audio file that will play when that ID is spoken. Import the audio into your project and drag it into the same index as the corresponding ID.
