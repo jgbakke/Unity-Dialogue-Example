@@ -23,13 +23,13 @@ Attach Dialogue Manager to any character who will be available to converse with
 JSON Files:
 Please see RobotBoy.json for an example file for an NPC. In this example, the player talks to a Robot. Here is the file structure
 
-id: {
-    "text": "What you want to say",
-		"condition" : "Met Before",
-		"responseIds": [id1, id2],
-		"alternateLine" : otherId,
-    "applyCondition" : ["Completed a quest", true]
-}
+	id: {
+	    "text": "What you want to say",
+			"condition" : "Met Before",
+			"responseIds": [id1, id2],
+			"alternateLine" : otherId,
+	    "applyCondition" : ["Completed a quest", true]
+	}
 
 id should be a string and is how it is identified
 
