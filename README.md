@@ -9,7 +9,8 @@ There are still changes planned for this so it is **not completely** ready for p
 
 If you **do** want to see the example project
   Clone the repo and open it
-  Note: It has come to my attention that cloning the repo and attempting to run it in Unity is not working. If this is the  case for you I would recommend just saving the scripts and experimenting with them in your own Scene.
+  
+  **Note**: There is an issue with the way Unity stores scenes. For an unknown reason, Cloning the repo and opening the scene directly is showing all GameObjects as invisible. If this is the  case for you I would recommend just saving the scripts and experimenting with them in your own Scene. **The only directory you need is Assets/Scripts. Everything else is just examples**
   
   Any questions or want to report a bug? Email bakkejor [at] msu.edu for any questions or open up an issue and I will get back to you.
   
