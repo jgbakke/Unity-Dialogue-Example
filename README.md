@@ -2,6 +2,10 @@
 
 Branching dialogue system for use with Unity Engine. Features a basic GUI for player to select from multiple options, a branching system where player dialogue options can lead to different NPC responses configured by the user, and a system to optionally track events so NPCs can respond to previous quests or player choices, allowing for dynamic dialogue. Ideal for text-heavy games such as RPGs
 
+This demo scene was made using Unity Demo Assets.
+
+If you want to see a Demo Video just open up demo.mov. This is just a demo so you can easily substitute any sound files with your own by including your own paths, or art, or any assets you have.
+
 There are still changes planned for this so it is **not completely** ready for production yet.
 
 **If you do not need the example project and only want the files to add to Game Objects:** (Recommended)
@@ -18,8 +22,7 @@ If you **do** want to see the example project
   
   I have attempted to make this as easy as possible for users to get up and running. I'm going to eventually be putting together a formal piece of documentation. Until that is done, here's what I would recommend:
   
-Add the Scripts directory into your scene
-Attach Dialogue Manager to any character who will be available to converse with
+Add the Scripts directory into your scene. Then Attach Dialogue Manager to any character who will be available to converse with
 
 JSON Files:
 Please see RobotBoy.json for an example file for an NPC. In this example, the player talks to a Robot. Here is the file structure
@@ -32,14 +35,14 @@ Please see RobotBoy.json for an example file for an NPC. In this example, the pl
 	        "applyCondition" : ["Completed a quest", true]
 	}
 
-id should be a string and is how it is identified
+id should be a string and is how it is identified. It should be unique among all dialogues but it doesn't matter its name, so long as it is a string. I usually just name them "<characterName>1", "<characterName>2", and so on.
 
 text: The subtitle
 
 Condition: If the condition is in the .csv file attached to this script, it will say this. Otherwise it will jump to 
 alternateLine and say that instead. This way you can make a chain of dialogue options until you fall back on a specific one.
 
-responseIds: The player has their own similar file. They will then be prompted to choose one of their IDs to speak
+responseIds: The player has their own similar file. They will then be prompted to choose one of these IDs in their file to speak
 
 applyCondition: This adds the specified condition as a value in the CSV file. True for the global CSV file, false otherwise
 
