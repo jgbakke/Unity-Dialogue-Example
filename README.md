@@ -6,7 +6,7 @@ This demo scene was made using Unity Demo Assets.
 
 If you want to see a Demo Video just open up demo.mov. This is just a demo so you can easily substitute any sound files with your own by including your own paths, or art, or any assets you have.
 
-There are still changes planned for this so it is **not completely** ready for production yet.
+There are still changes planned for this, so you can use it but keep in mind that there will be additional updates in the future.
 
 **If you do not need the example project and only want the files to add to Game Objects:** (Recommended)
   Just clone the repo and then move the directories Assets/Scripts/Dialogue and Assets/Scripts/lib into your project.
