@@ -16,8 +16,6 @@ If you **do** want to see the example project
   
   **Note**: There is an issue with the way Unity stores scenes. For an unknown reason, Cloning the repo and opening the scene directly is showing all GameObjects as invisible. If this is the  case for you I would recommend just saving the scripts and experimenting with them in your own Scene. **The only directory you need is Assets/Scripts. Everything else is just examples**
   
-  Any questions or want to report a bug? Email bakkejor [at] msu.edu for any questions or open up an issue and I will get back to you.
-  
   # Usage #
   
   I have attempted to make this as easy as possible for users to get up and running. I'm going to eventually be putting together a formal piece of documentation. Until that is done, here's what I would recommend:
