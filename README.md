@@ -1,6 +1,6 @@
 # Unity-Dialogue-Example
 
-For a newer dialogue system, see the other project "RevNPC". This in some ways is better, such as not relying on AI to understand player's voice. This way made 1 full year before that so there are some lessons I learned from this that I could apply towards RevNPC
+For a newer dialogue system, see the other project "RevNPC". This has certain features that are not part of RevNPC, such as not relying on AI to understand player's voice. However, this was made 1 full year before that so there are many lessons I learned from this that I applied towards RevNPC
 
 Branching dialogue system for use with Unity Engine. Features a basic GUI for player to select from multiple options, a branching system where player dialogue options can lead to different NPC responses configured by the user, and a system to optionally track events so NPCs can respond to previous quests or player choices, allowing for dynamic dialogue. Ideal for text-heavy games such as RPGs
 
